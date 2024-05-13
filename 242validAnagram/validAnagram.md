@@ -77,6 +77,7 @@ class Solution {
 Ok, with this code, we should be in a perfectly working state! Let's submit.
 
 ![](screenshot.png)
+
 Ok, well I can see the issue there. If we just check the length, that should be super easy to fix
 ```java
 if (s.length() != t.length())

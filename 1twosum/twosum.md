@@ -48,6 +48,7 @@ Nums: [2,7,11,15]
 return current index and mapped index
 
 Final Map:
+
 | key | value |
 | --- | ----- |
 |  7  |   0   |
