@@ -70,7 +70,7 @@ class Solution {
 }
 ```
 
-# Attempt 2
+## Attempt 2
 This attempt is going to just go through the entire string, clean it up, then do the process. Should be O(2n)
 
 It works! Here's the code for the solution:
@@ -102,6 +102,7 @@ class Solution {
 
 Let's check out the results...
 ![Leetcode Results](image.png)
+
 oh. That's disappointing. Let's try it again with some optimizations in mind.
 
 ## Attempt 3:
@@ -202,7 +203,9 @@ class Solution {
 }
 ```
 aaand a testcase failed.
+
 `".,"`
+
 are you kidding me...
 
 Ok fine, changing the removal case should fix it:
@@ -233,6 +236,7 @@ class Solution {
 }
 ```
 And now let's test:
+
 ![alt text](image-3.png)
 
 FINALLY! I think the true issue ended up being the println I left in the code. Let's check...
