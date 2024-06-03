@@ -11,3 +11,4 @@ My goal is to finish the NeetCode Roadmap before the end of Summer 2024. I will 
 
 ## 2 Pointers
 - [125: Valid Palindrome](125validPalindrome/validPalindrome.md)
+- [2486: Append Characters](2486appendCharacters/appendCharacters.md)
